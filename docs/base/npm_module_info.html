@@ -3,8 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>前端文档笔记</title>
-                <meta name="robots" content="noindex" />
+        <title>查看模块信息 - 前端文档笔记</title>
                 
 
         <!-- Custom HTML head -->
@@ -15,21 +14,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
 
-                <link rel="icon" href="favicon.svg">
-                        <link rel="shortcut icon" href="favicon.png">
-                <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-                <link rel="stylesheet" href="css/print.css" media="print">
+                <link rel="icon" href="../favicon.svg">
+                        <link rel="shortcut icon" href="../favicon.png">
+                <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+                <link rel="stylesheet" href="../css/print.css" media="print">
         
         <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-                <link rel="stylesheet" href="fonts/fonts.css">
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+                <link rel="stylesheet" href="../fonts/fonts.css">
         
         <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
         
@@ -37,7 +36,7 @@
     <body>
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
-            var path_to_root = "";
+            var path_to_root = "../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
@@ -83,7 +82,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">说明</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="base/index.html">基础</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="base/npm_index.html">npm</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="base/npm_general_cmd.html">常用命令</a></li><li class="chapter-item "><a href="base/npm_module_info.html">查看模块信息</a></li><li class="chapter-item "><a href="base/npm_config_cmd.html">配置信息</a></li><li class="chapter-item "><a href="base/ncpm_set_cmd.html">Set命令</a></li><li class="chapter-item "><a href="base/npm_other_cmd.html">其他常用命令</a></li></ol></li><li class="chapter-item "><a href="base/yarn_index.html">yarn</a></li></ol></li><li class="chapter-item expanded "><div>框架</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><div>vue</div></li><li class="chapter-item "><a href="frame/elementui_index.html">element-ui</a></li></ol></li></ol>            </div>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">说明</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../base/index.html">基础</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../base/npm_index.html">npm</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../base/npm_general_cmd.html">常用命令</a></li><li class="chapter-item expanded "><a href="../base/npm_module_info.html" class="active">查看模块信息</a></li><li class="chapter-item "><a href="../base/npm_config_cmd.html">配置信息</a></li><li class="chapter-item "><a href="../base/ncpm_set_cmd.html">Set命令</a></li><li class="chapter-item "><a href="../base/npm_other_cmd.html">其他常用命令</a></li></ol></li><li class="chapter-item "><a href="../base/yarn_index.html">yarn</a></li></ol></li><li class="chapter-item expanded "><div>框架</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><div>vue</div></li><li class="chapter-item "><a href="../frame/elementui_index.html">element-ui</a></li></ol></li></ol>            </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
@@ -115,7 +114,7 @@
                     <h1 class="menu-title">前端文档笔记</h1>
 
                     <div class="right-buttons">
-                                                <a href="print.html" title="Print this book" aria-label="Print this book">
+                                                <a href="../print.html" title="Print this book" aria-label="Print this book">
                             <i id="print-button" class="fa fa-print"></i>
                         </a>
                                                                         
@@ -144,27 +143,7 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="说明"><a class="header" href="#说明">说明</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="基础"><a class="header" href="#基础">基础</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="npm"><a class="header" href="#npm">npm</a></h1>
-<p>官网: <a href="https://docs.npmjs.com/">https://docs.npmjs.com/</a></p>
-<p>中文文档: <a href="https://www.npmjs.com.cn/">https://www.npmjs.com.cn/</a></p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="常用命令"><a class="header" href="#常用命令">常用命令</a></h1>
-<h2 id="安装i"><a class="header" href="#安装i">安装（i）</a></h2>
-<pre><code class="language-shell">npm install [&lt;name&gt;&lt;version&gt;][-g]/[--save][-dev]
-</code></pre>
-<h2 id="更新up-upgrade"><a class="header" href="#更新up-upgrade">更新(up, upgrade)</a></h2>
-<pre><code class="language-shell">npm update [&lt;name&gt;&lt;version&gt;][-g]/[--save][-dev]
-</code></pre>
-<h2 id="卸载removermrununlink"><a class="header" href="#卸载removermrununlink">卸载(remove、rm、r、un、unlink)</a></h2>
-<pre><code class="language-shell">npm uninstall [&lt;name&gt;&lt;version&gt;][-g]/[--save][-dev]
-</code></pre>
-<h2 id="搜索ssefind"><a class="header" href="#搜索ssefind">搜索(s、se、find)</a></h2>
-<p>使用该功能可以查找我们需要的模块及其相关模块信息（包名称、描述、作者、更新时间、最新版本号、关键词等等），下面是语法：</p>
-<pre><code class="language-shell">npm search [&lt;name&gt;&lt;version&gt;][-g]/[--save][-dev]
-</code></pre>
-<h2 id="发布"><a class="header" href="#发布">发布</a></h2>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="查看模块信息"><a class="header" href="#查看模块信息">查看模块信息</a></h1>
+                        <h1 id="查看模块信息"><a class="header" href="#查看模块信息">查看模块信息</a></h1>
 <p>我们可以查看 <strong>全局</strong> 或 <strong>项目</strong> 下已安装的各模块之间的依赖关系图，下面是语法和结果：</p>
 <pre><code class="language-shell">npm list/ls/la/ll [-g]
 </code></pre>
@@ -251,57 +230,18 @@ published 6 months ago by cs1707 &lt;1707@msn.cn&gt;
 <pre><code class="language-shell">npm docs &lt;name&gt;
 </code></pre>
 <h2 id=""><a class="header" href="#"></a></h2>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="配置信息"><a class="header" href="#配置信息">配置信息</a></h1>
-<h2 id="更改npm全局安装路径"><a class="header" href="#更改npm全局安装路径">更改npm全局安装路径</a></h2>
-<pre><code class="language-shell">npm config set prefix &lt;路径&gt;
-</code></pre>
-<h2 id="更改npm镜像源"><a class="header" href="#更改npm镜像源">更改npm镜像源</a></h2>
-<pre><code class="language-shell">npm config set registry &lt;URL&gt;
-</code></pre>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="set命令"><a class="header" href="#set命令">Set命令</a></h1>
-<h2 id="更换包管理器"><a class="header" href="#更换包管理器">更换包管理器</a></h2>
-<pre><code class="language-shell">npm set --global packageManager=yarn
-</code></pre>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="其他常用命令"><a class="header" href="#其他常用命令">其他常用命令</a></h1>
-<h2 id="初始化packagejson"><a class="header" href="#初始化packagejson">初始化package.json</a></h2>
-<pre><code class="language-shell">npm init
-</code></pre>
-<h2 id="帮助"><a class="header" href="#帮助">帮助</a></h2>
-<pre><code class="language-shell">npm help
-npm -h
-</code></pre>
-<h2 id="清除缓存"><a class="header" href="#清除缓存">清除缓存</a></h2>
-<pre><code class="language-shell">npm cache clean
-</code></pre>
-<h2 id="验证缓存"><a class="header" href="#验证缓存">验证缓存</a></h2>
-<pre><code class="language-shell">npm cache verify
-</code></pre>
-<h2 id="script"><a class="header" href="#script">script</a></h2>
-<pre><code class="language-shell">npm run &lt;command&gt;
-</code></pre>
-<h2 id="其他"><a class="header" href="#其他">其他</a></h2>
-<h3 id="可选参数说明"><a class="header" href="#可选参数说明">可选参数说明</a></h3>
-<pre><code class="language-shell">--save      // 将模块依赖关系写入到package.json文件的dependencies参数中
--dev        // 将模块依赖关系写入到package.json文件的devDependencies参数中
--g          // 表示全局
-@+version   // 安装指定版本
-</code></pre>
-<h3 id="参考网站"><a class="header" href="#参考网站">参考网站</a></h3>
-<ul>
-<li>NPM官网: <a href="https://docs.npmjs.com/cli/npm">https://docs.npmjs.com/cli/npm</a></li>
-<li>NPM中文网: <a href="https://www.npmjs.com.cn/cli/npm/">https://www.npmjs.com.cn/cli/npm/</a></li>
-<li>菜鸟教程: <a href="http://www.runoob.com/nodejs/nodejs-npm.html">http://www.runoob.com/nodejs/nodejs-npm.html</a></li>
-</ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="yarn"><a class="header" href="#yarn">yarn</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="element-ui"><a class="header" href="#element-ui">element-ui</a></h1>
-<p>官网2.x: <a href="https://element.eleme.cn/#/zh-CN">https://element.eleme.cn/#/zh-CN</a></p>
-<p>官网3.x: <a href="https://element-plus.org/zh-CN/#/zh-CN">https://element-plus.org/zh-CN/#/zh-CN</a></p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
+                                                    <a rel="prev" href="../base/npm_general_cmd.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
                         
+                                                    <a rel="next" href="../base/npm_config_cmd.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
                         
                         <div style="clear: both"></div>
                     </nav>
@@ -309,7 +249,13 @@ npm -h
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                                    <a rel="prev" href="../base/npm_general_cmd.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
                 
+                                    <a rel="next" href="../base/npm_config_cmd.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
                             </nav>
 
         </div>
@@ -336,21 +282,16 @@ npm -h
         </script>
         
         
-                <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+                <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
         
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
 
         <!-- Custom JS scripts -->
         
-                        <script type="text/javascript">
-        window.addEventListener('load', function() {
-            window.setTimeout(window.print, 100);
-        });
-        </script>
-                
+        
     </body>
 </html>
